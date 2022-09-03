@@ -24,3 +24,13 @@ const name_ = "alex";
 const pageNumber = "1";
 const User = null;
 const Tags = ["groovy", "curl", "amzn"];
+//TYPESCRIPT VOID 
+const printHello = () => {
+    console.log("Hello world!");
+};
+//TYPESCRIPT ANY
+const foo = "00";
+//TYPRSCRIPT TYPE ASSERTION AND UNKNOWN
+const Unknown = "this is a string";
+const sval = Unknown;
+console.log(foo.bar());

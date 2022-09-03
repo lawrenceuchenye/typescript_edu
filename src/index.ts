@@ -51,4 +51,23 @@ type popularTags=string;
 const Tags:popularTags[]=["groovy","curl","amzn"];
 
 
+//TYPESCRIPT VOID 
+
+const printHello=():void =>{
+    console.log("Hello world!");
+}
+
+//TYPESCRIPT ANY
+
+const foo:any="00";
+
+//TYPRSCRIPT TYPE ASSERTION AND UNKNOWN
+
+const Unknown:unknown="this is a string";
+const sval:string=Unknown as string;
+console.log(foo.bar());
+
+const un:unknown=10;
+const stringun:string=un as string;
+console.log(un);
 
