@@ -71,3 +71,23 @@ const un:unknown=10;
 const stringun:string=un as string;
 console.log(un);
 
+
+
+//TYPESCRIPT CLASSES
+
+class UserN{
+    firstName:string;
+    lastName:string;
+
+    constructor(firstName: string,lastName: string){
+        this.firstName=firstName;
+        this.lastName=lastName;
+    }
+
+    getMessage():string{
+        return this.firstName+" "+this.lastName;
+    };
+}
+
+const userr=new UserN("Law","Uche");
+

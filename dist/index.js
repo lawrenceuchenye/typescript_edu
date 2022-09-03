@@ -34,3 +34,18 @@ const foo = "00";
 const Unknown = "this is a string";
 const sval = Unknown;
 console.log(foo.bar());
+const un = 10;
+const stringun = un;
+console.log(un);
+//TYPESCRIPT CLASSES
+class UserN {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    getMessage() {
+        return this.firstName + " " + this.lastName;
+    }
+    ;
+}
+const userr = new UserN("Law", "Uche");
